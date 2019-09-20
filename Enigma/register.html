@@ -8,21 +8,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         .form1{
-            padding-top: 150px;
+            padding-top: 50px;
+            margin: 10px;
+            
+        }
+        form{
+            border: none;
+            border-left: 5px solid;
+           
+            border-width: 2px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 20px;
+            padding: 20px;
+            border-color: blue;
+            border-radius: 14px;
         }
        input[type=text], input[type=email], input[type=tel], input[type=number]{
            border: none;
-            
+           
             border-bottom:2px solid rgb(211, 126, 30);
         }
         button{
             color: rgb(211,126,30);
         }
+        body{
+            background-attachment: fixed;
+        }
+        .scroll{
+            
+        }
     </style>
     <title>Document</title>
 </head>
 <body>
-  <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+  <nav class="navbar navbar-dark navbar-expand-sm bg-primary scroll-top">
         <ul>
             <li class="nav-item"> <a class = "nav-link" href="register.html"><b style ="color: floralwhite; padding-top:10px">Home</b>   </a></li>
            
@@ -32,29 +52,36 @@
 
     </nav>
 
-   <div class="form1">
+    <div>
+        <h1 style="margin-top: 80px;margin-left:150px;font-family:'Lucida Sans'">Register</h1>
+    </div>
+   
+   <div class="form1 offset-0">
     <div class="container">
         <form action="#" method="POST">
            <div class="form-group row">
-               <div class="col-md-6">
-                   <label for="fname" class="col-sm-4 col-md-6">First Name</label>
+               <div class="col-md-5">
+                   <label for="fname" class="col-sm-4 col-md-6">First Name<b style="color: red"> *</b></label>
                    <input type="text" class="form-control" id="fname" placeholder="First name"/>
                </div>
-               <div class="col-md-6">
+            </div>
+         <div class="scroll">
+            <div class="form-group row">
+               <div class="col-md-5">
                    <label for="lname" class="col-sm-4 col-md-6">Last Name</label>
-                   <input type="text" class="form-control" id="fname" placeholder="Last name"/>
+                   <input type="text" class="form-control" id="fname" placeholder="Lastname"/>
                </div>
            </div>
            <div class="form-group row">
-                <div class="col-md-6">
-                    <label for="email" class="col-sm-4 col-md-6">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="@mail.com"/>
-                </div>
-                
+            <div class="col-md-5">
+                <label for="email" class="col-sm-4 col-md-6 ">Email<b style="color: red"> *</b></label>
+                <input type="email" class="form-control" id="email" placeholder="@mail.com"/>
             </div>
+            
+        </div>
             <div class="form-group row">
                     <div class="col-md-5">
-                        <label for="tel" class="col-sm-4 col-md-4">Contact no.</label>
+                        <label for="tel" class="col-sm-4 col-md-4">Contact no.<b style="color: red"> *</b></label>
                         <input type="tel" class="form-control" id="number" placeholder="+91"/>
                     </div>
                     
@@ -67,10 +94,11 @@
                         </div>
                         
                     </div>
+          </div>
                     <div class="form-group row">
                     
                             <div class="col-md-5">
-                                <label for="tel" class="col-sm-4 col-md-4">College id</label>
+                                <label for="tel" class="col-sm-4 col-md-4">College id<b style="color: red"> *</b></label>
                                 <input type="tel" class="form-control" id="number" />
                             </div>
                             
