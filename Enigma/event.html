@@ -7,56 +7,93 @@
      
      <link rel="stylesheet" href="style.css">
      <style>
-         h1{
-             margin-top: 30px;
-             margin-bottom: 60px;
-             color:yellow;
-             border: solid;
-             border-color: red;
-             border-spacing: 10px;
-             border-radius: 50px;
-             border-block-color:orange;
-             background-color: blue;
-         }
+        
          .scroll{
-             background-image: url("action.jpg");
+             background-image: url("scroll1.jpg");
              background-attachment: fixed;
              width: 100%;
              margin-left: 0%;
-             margin-top: 100px;
-             height: 500px;
+             margin-top: 150px;
+             height: 50%;
              
          }
          button{
              color: blueviolet;
          }
+         
+         .list li{
+             float: left;
+             color: white;
+             list-style-type:none;
+             position: relative;
+             bottom:100px;
+
+         }
+         .event{
+             margin-left:500px;
+             font-size: 60px;
+             position: relative;
+             bottom: 35px;
+         }
+         .event:hover{
+            font-size: 65px;
+           
+            
+         }
+         .list > li{
+             color: green;
+             font-size: 30px;
+         }
+       
+         footer{
+             background-color:rgb(19, 18, 18);
+             color:white;
+             text-align: center;
+             margin-bottom: 0px;
+             height: 30%;
+         }
+         .row{
+             position: relative;
+             bottom: 220px;
+         }
+         
      </style>
  </head>
 
  <body>
-   <div class="container">
-       <h1 style="text-align: center">Events</h1>
+
+
+   <div>
+       <ul class="list">
+           <li>Enigma</li>
+           <div class="event">
+           <li>Events</li>
+           </div>
+       </ul>
+   </div>
+   <div class="scroll">
+       
    </div>
 
-
-   <div class="scroll">
+  
    <div class="container">
 
          <div class="row">
            
                <div class="col-sm-12 col-md-4">
-                 <div class="card1" style="margin-top:0px;">
-                     <span></span><span></span><span></span><span></span>
+                 <div class="card1">
+                        
                      <div class="content">
                          <h2>Coding tech</h2>
                          <p>Get ready to code ---</>---</p>
                          <button type="button" class="btn btn-danger" onclick="window.location.href='event1.html'" style="border-radius:20px; margin-bottom:10px; ">Read more ...</button>
-                     </div>
+                     
+                        </div>
                  </div>
              </div>
              <div class="col-sm-12 col-md-4">
-                 <div class="card2" style="margin-top:0px;">
-                     <span></span><span></span><span></span><span></span>
+                 <div class="card2">
+                    
                      <div class="content">
                          <h2>DARE</h2>
                          <p style="color: cornsilk; text-align:center"><strong>Are you ready to face Dare ??</strong></p>
@@ -66,8 +103,8 @@
                  </div>
              </div>
              <div class="col-sm-12 col-md-4">
-                 <div class="card3" style="margin-top:0px;">
-                     <span></span><span></span><span></span><span></span>
+                 <div class="card3">
+                
                      <div class="content">
                          <h2>know your voice</h2>
                          <p>Playback</p>
@@ -83,7 +120,7 @@
 
              <div class="col-sm-12 col-md-4">
                  <div class="card4">
-                     <span></span><span></span><span></span><span></span>
+                    
                      <div class="content">
                          <h2>Adventures !!!</h2>
                          <p>Pack your bags :)</p>
@@ -94,7 +131,7 @@
              </div>
              <div class="col-sm-12 col-md-4">
                  <div class="card5">
-                     <span></span><span></span><span></span><span></span>
+                    
                      <div class="content">
                          <h2>coding tech</h2>
                          <p>please vhhgvhsgfgsch</p>
@@ -105,7 +142,6 @@
              </div>
              <div class="col-sm-12 col-md-4">
                  <div class="card6">
-                     <span></span><span></span><span></span><span></span>
                      <div class="content">
                          <h2>coding tech</h2>
                          <p>please vhhgvhsgfgsch</p>
@@ -117,10 +153,21 @@
          </div>
       </div>   
      </div>
-     </div>
+   
 
- 
 
+   
+    <footer class="footer">
+        <p>Contact us </p>
+        <ul>
+            <li>phone no : 526314</li>
+            <li>Email : xyz@mail.com</li>
+            <li>Address :</li>
+            <li>phone no : 526314</li>
+            <li>phone no : 526314</li>
+           
+        </ul>
+    </footer>
 
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
