@@ -5,89 +5,77 @@
          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
      
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="event.css">
      <style>
-        
+            .footer
+            {
+              background-color: #2f0505;
+               margin: 300px auto;
+              padding: 20px 0px 20px 0px;
+              color: floralwhite;
+              margin-bottom: 0px;
+            }
+            
          .scroll{
              background-image: url("scroll1.jpg");
+             background-repeat: no-repeat;
              background-attachment: fixed;
              width: 100%;
              margin-left: 0%;
-             margin-top: 150px;
-             height: 50%;
+             margin-top: 100px;
+             height: 100%;
              
          }
          button{
              color: blueviolet;
          }
          
-         .list li{
-             float: left;
-             color: white;
-             list-style-type:none;
-             position: relative;
-             bottom:100px;
-
-         }
-         .event{
-             margin-left:500px;
-             font-size: 60px;
-             position: relative;
-             bottom: 35px;
-         }
-         .event:hover{
-            font-size: 65px;
-           
-            
-         }
-         .list > li{
-             color: green;
-             font-size: 30px;
-         }
-       
-         footer{
-             background-color:rgb(19, 18, 18);
-             color:white;
-             text-align: center;
-             margin-bottom: 0px;
-             height: 30%;
-         }
-         .row{
-             position: relative;
-             bottom: 220px;
-         }
+      
          
      </style>
  </head>
 
  <body>
+<nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href='#'>Enigma</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+           
+            
+        </ul>
+    </div>
+</nav>
 
-
-   <div>
-       <ul class="list">
-           <li>Enigma</li>
-           <div class="event">
-           <li>Events</li>
-           </div>
-       </ul>
-   </div>
-   <div class="scroll">
-       
-   </div>
-
-  
+ 
+  <div class="scroll">
    <div class="container">
 
-         <div class="row">
+         <div class="row ">
            
                <div class="col-sm-12 col-md-4">
                  <div class="card1">
                         
                      <div class="content">
                          <h2>Coding tech</h2>
-                         <p>Get ready to code ---</>---</p>
+                         <p>Get ready to code ------</p>
+                         <div>
                          <button type="button" class="btn btn-danger" onclick="window.location.href='event1.html'" style="border-radius:20px; margin-bottom:10px; ">Read more ...</button>
-                     
+                        </div>
                         </div>
                  </div>
              </div>
@@ -153,21 +141,59 @@
          </div>
       </div>   
      </div>
-   
+    </div>
 
-
    
+    <!-- Footer -->
     <footer class="footer">
-        <p>Contact us </p>
-        <ul>
-            <li>phone no : 526314</li>
-            <li>Email : xyz@mail.com</li>
-            <li>Address :</li>
-            <li>phone no : 526314</li>
-            <li>phone no : 526314</li>
-           
-        </ul>
-    </footer>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-4 col-sm-2">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="contactus.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 col-sm-5">
+                        <h5>Our Address</h5>
+                        <address>
+                                United Tower 53, Leader Road,<br>
+                                Allahabad, U.P. India.<br>
+                                Phone : 0532-2402951-55<br>
+                                Toll Free No : 1800 3131 808<br>
+                                
+                          <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                          <span class="fa fa-fax fa-lg"></span> +852 8765 4321<br>
+                          <span class="fa fa-envelope fa-lg"></span> <a href="mailto:confusion@food.net"></a>
+                       </address>
+                    </div>
+    
+    
+    
+    
+                  <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span class="fa fa-google-plus fa-lg"></span></a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook fa-lg"></span></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span class="fa fa-linkedin fa-lg"></span></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span class="fa fa-twitter fa-lg"></span></a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="fa fa-youtube fa-lg"></span></a>
+                            <a class="btn btn-social-icon" href="mailto:"><span class="fa fa-envelope-o fa-lg"></span></a>
+                        </div>
+                    </div>
+                  </div>
+    
+               <div class="row justify-content-center">
+                     <div class="col-auto">
+                        <p>© 2019 Ashish Kumar Gupta All rights reserved. </p>
+                    </div>
+               </div>
+            </div>
+        </footer>
+        
 
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
