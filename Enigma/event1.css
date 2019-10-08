@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient( to right,#72170b,#060766);
+    z-index: -1;
+}
+.b1{
+  /********* for the button *********************/
+
+  z-index: 23 ;
+}
+.eventstyle{
+   font-size: 100px;
+   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-inner{
+    height: 550px;
+}
+.carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+   
+  }
+ .carouselContent{
+   z-index: 1;
+ }
+
+
+
+
+ .content-flow{
+   /************* for controlling the over - flow of the content ****************/
+   width: 100%;
+    height: 100%;
+   overflow: hidden;
+ }
+ .content-flow p {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box;
+ }
+
+
+/**************** finished overflow case *****************/
+
+
+
+
+
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    /******* will remove the default image of arrow ************/
+    margin: 200px;
+    box-sizing: border-box;
+    background-image: none;
+}
+.scrollbar {
+    
+    float: left;
+    overflow-y: scroll;
+}
+.force-overflow {
+    min-height: 50px;
+}   
+ /*********** for color of arrow *********/
+ .carousel-control-next-icon:after
+{ z-index: -1;
+  content: '>>';
+  margin-right: 100px;
+  font-size: 55px;
+  color: yellowgreen;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<<';
+   z-index: -1; 
+  font-size: 55px;
+  color: yellow;
+}

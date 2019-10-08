@@ -18,12 +18,39 @@ body{
 
 .btn1{
     border-radius: 60px;
+    border: none;
     box-sizing: border-box;
     background-image: linear-gradient( to right,#ec331b,#13147c);
    text-align: center;
     transition: 1s;
     color: floralwhite;
 }
+.btn1:hover{
+    border-radius: 60px;
+    box-sizing: border-box;
+    background-image: linear-gradient( to right,#b45a4e,#5758bb);
+   text-align: center;
+    transition: 1s;
+    color: floralwhite;
+}
+.btn2{
+    border-radius: 60px;
+    border: none;
+    box-sizing: border-box;
+    background-image: linear-gradient( to right,#13147c,#ec331b);
+    text-align: center;
+    transition: 1s;
+    color: floralwhite;
+}
+.btn2:hover{
+    border-radius: 60px;
+    box-sizing: border-box;
+    background-image: linear-gradient( to right,#5758bb,#c25243);
+    text-align: center;
+    transition: 1s;
+    color: floralwhite;
+}
+
 
 input[type=text], input[type=email], input[type=tel], input[type=number]{
     
