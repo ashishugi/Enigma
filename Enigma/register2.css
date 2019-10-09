@@ -1,0 +1,33 @@
+body{
+
+  /* background: linear-gradient(to bottom left ,#6B5B95 ,#E08119); */
+     background: linear-gradient(to bottom left  ,#050a58,#05235a); 
+
+ /* background-color: rgb(11, 11, 73); */
+
+
+}
+/******************** check-box related task *******************/
+/* Hide the browser's default checkbox */
+
+  
+.header{
+    color:rgb(54, 157, 241);
+    text-align: center;
+    margin-top:30px;
+    font-family: 'Lucida Sans';
+   text-align: center;
+}
+.content{
+    color:rgb(32, 187, 12);
+}
+.row{
+    margin-top: 30px;
+}
+.tech .cult .prof{
+    margin-top: 50px;
+    color: white;
+}
+.head{
+    color:white;
+}
