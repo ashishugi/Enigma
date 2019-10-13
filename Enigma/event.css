@@ -1,6 +1,8 @@
 body {
-    background-color: floralwhite;
-    background-size:auto ;
+  background-image: url("scroll4.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 400px;
     
 }
@@ -63,20 +65,20 @@ body {
     color: #999;
     }
 .content-size{
-        margin-top: 100px;
+        margin-top: 0px;
         margin-left: 2px;
         margin-right: 2px; 
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
  .card{
      margin: :15px;
  }
 .image{
     
-    background-image: url("scroll4.jpg");
+   
     justify-content: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+  
    
      
 }
@@ -97,29 +99,3 @@ body {
     transition: 1s;
     color: floralwhite;
 }
-.text_1 {
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-block;
-    position: relative;
-  }
-  .text_1::after {
-    content: "|";
-    position: absolute;
-    right: 0;
-  }
-  @keyframes typewriter {
-    0%, 100% {
-      width: 0;
-    }
-    20%, 80% {
-      width: 10.2em;
-    }
-  }@keyframes caret {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }

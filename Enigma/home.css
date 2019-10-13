@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+ background-color: rgb(32, 21, 151);
+    min-height: 720px;  
+}
+/* for header */
+.header{
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI'; 
+   text-align: center;
+}
+.row p  {
+    color: white;
+    text-align: center;
+    
+}
+.nav{
+    background-attachment: fixed;
+}
+
+
+/* type */
+
+
+}
+
+section{
+    
+    overflow: hidden;
+    width:100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    
+     
+}
+ section .wave{
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom:0%;
+    left: 0;
+    opacity: 0.5;
+    background: url(wave.png);
+    animation: animate1 10s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 1360px;
+    }
+}
+section .wave:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom: 0;
+    left: 0;
+    background: url(wave.png);
+    opacity: 0.4;
+    animation: animate2-rev 10s linear infinite;
+}
+
+@keyframes animate2-rev{
+    0%{
+        background-position: 1360px;
+    }
+    100%{
+        background-position: 0;
+    }
+}
+
+section .wave:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom: 0;
+    left: 0;
+    background: url(wave.png);
+    opacity: 0.3;
+    animation-delay: -5s;
+    animation: animate2-after 20s linear infinite;
+}
+
+@keyframes animate2-after{
+    0%{
+        background-position: 1360px;
+    }
+    100%{
+        background-position: 0;
+    }
+}
+/* for type writer effect */
+.typewriter{
+    border-right: .15em solid orange; /* The typwriter cursor */
+    text-align: center;
+}
+.type1{
+    margin-left: 30px;
+    padding-left: 50px;
+    padding: 40px;
+}
+/* .txt-type  .txt {
+    border-right: 0.2rem solid rgb(114, 209, 196);
+  } */
+/* *********************** making card */
+
+  /* Remove extra left and right margins, due to padding */
+  
+  /* Clear floats after the columns */
+  
+  /* Responsive columns */
+ 
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+.card1{
+    top: 0;
+    margin-top: 20px;
+    background:white;
+}  
+.row1{
+    margin-top: 20px;
+}
+/******************** for navbar ************************/
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.7);
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #86b615;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+  /* *********************** making of date , location and countdown */
+  .row2{
+     margin:50px;
+  }
