@@ -1,0 +1,101 @@
+body {
+  background-image: url("scroll4.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    
+}
+
+/******************** about content of the card **************************/
+
+.content {
+    color: #fff;
+    border: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 500px;
+    transition: 2s;
+    margin:50px;
+   
+   
+}
+
+.content:hover {
+    color: white;
+    border: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 500px;
+    transform: translateY(20%);
+    transition: 2s;
+    background-color: black;
+    opacity: 0.7;
+
+
+}
+.content1{
+    color: #fff;
+    border: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 500px;
+    transition: 2s;
+    margin:50px;
+    margin-top: 25px;
+}
+
+.content1:hover {
+    color: white;
+    border: solid;
+    border-width: 2px;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 500px;
+    transform: translateY(20%);
+    transition: 2s;
+    margin:50px;
+    margin-top: 25px;
+    background-color: black;
+}
+.content p {
+    color: #999;
+    }
+.content-size{
+        margin-top: 0px;
+        margin-left: 2px;
+        margin-right: 2px; 
+        margin-bottom: 0px;
+    }
+ .card{
+     margin: :15px;
+ }
+.image{
+    
+   
+    justify-content: center;
+    background-repeat: no-repeat;
+  
+   
+     
+}
+.btn2{
+    border-radius: 30px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #242582;
+    text-align: center;
+    transition: 1s;
+    color: floralwhite;
+}
+.btn2:hover{
+    border-radius: 60px;
+    box-sizing: border-box;
+    background-image: linear-gradient( to right,#5758bb,#c25243);
+    text-align: center;
+    transition: 1s;
+    color: floralwhite;
+}

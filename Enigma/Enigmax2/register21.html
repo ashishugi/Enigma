@@ -1,0 +1,164 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" type="text/css" href="register3.css">-->
+<link rel="stylesheet" type="text/css" href="register2.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="register21.js"></script>
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    
+  <div class="animation-area">
+    <ul class="box-area">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        </ul>   
+
+        <div class="header">
+                <strong><h1>Event Selection</h1></strong>
+        </div>
+<div class="container">
+    <form  action="registration2.php" method="post"  id="form1">
+       <div class="events">
+         <div class="tech">
+        <h2 class="head ">Technical events</h2>
+      <div class="row">
+         
+          <div class="col-sm-12 col-md-3 content ">
+              <input class="form-check-input" type="checkbox" onclick="clicked(this.id)" id="te1" name="b[]" value='Bridgewars'>
+            <h5><strong><label class="form-check-label" >Bridgewars</label></strong></h5>
+          </div>
+          <div class="col-sm-12 col-md-3 content">
+              <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="te2" name="b[]" value='Craftmanship'>
+            <h5> <strong>  <label class="form-check-label" >Craftmanship</label></strong></h5>
+            
+          </div>
+          <div class="col-sm-12 col-md-3 content">
+               
+              <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="te3" name="b[]" value='Trigger the Bridge'>
+            <h5><strong><label class="form-check-label" >Trigger The Bridge</label></strong></h5>
+          </div>
+          <div class="col-sm-12 col-md-3 content">
+             
+              <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="te4" name="b[]" value='Code{} de Byte'>
+              <h5><strong><label class="form-check-label" >Code{} de Byte</label></strong></h5>
+          </div>
+        
+            
+          </div>
+        </div>
+        <div class="sport">
+          <h2 class="head ">Sporting Event</h2>
+          <div class="row">
+             
+              <div class="col-sm-12 col-md-6 content">
+                  <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="se1" name="b[]" value='Sporotfia'>
+                <h5><strong><label class="form-check-label" >Sporotfia</label></strong></h5>
+              </div>
+              <div class="col-sm-12 col-md-6 content">
+                  <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="se2" name="b[]" value='Enigmna Gaming League(EGL)'>
+                <h5> <strong>  <label class="form-check-label" >Enigmna Gaming League(EGL)</label></strong></h5>
+                
+              </div>
+           </div>
+           </div>
+
+           <div class="prof">
+              <h2 class="head ">Professional Events</h2>
+            <div class="row">
+               
+                <div class="col-sm-12 col-md-6 content">
+                    <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="pe1" name="b[]" value='Dropout LTD'>
+                  <h5><strong><label class="form-check-label" >Dropout LTD</label></strong></h5>
+                </div>
+                <div class="col-sm-12 col-md-6 content">
+                    <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="pe2" name="b[]" value='Mini UN'>
+                  <h5> <strong>  <label class="form-check-label" >Mini UN</label></strong></h5>
+                  
+                </div>
+                </div>
+              </div>
+              <div class="cult">
+                  <h2 class="head ">Cultural Events</h2>
+                <div class="row">
+                   
+                    <div class="col-sm-12 col-md-4 content">
+                        <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce1" name="b[]" value='Rollick'>
+                      <h5><strong><label class="form-check-label" >Rollick</label></strong></h5>
+                    </div>
+                    <div class="col-sm-12 col-md-4 content">
+                        <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce2" name="b[]" value='Feet of Fire'>
+                      <h5> <strong>  <label class="form-check-label" >Feet of Fire</label></strong></h5>
+                      
+                    </div>
+                    <div class="col-sm-12 col-md-4 content">
+                         
+                        <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce3" name="b[]" value='Ad Manic'>
+                      <h5><strong><label class="form-check-label" >Ad Manic</label></strong></h5>
+                    </div>
+                  </div>
+                    <div class="row">
+                                <div class="col-sm-12 col-md-4 content">
+                               
+                                    <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce4" name="b[]" value='BackStage Quizzing'>
+                                    <h5><strong><label class="form-check-label" >BackStage Quizzing</label></strong></h5>
+                                </div>
+                                <div class="col-sm-12 col-md-4 content">
+                               
+                                    <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce5" name="b[]" value='Open Mic'>
+                                    <h5><strong><label class="form-check-label" >Open Mic</label></strong></h5>
+                                </div>
+                                <div class="col-sm-12 col-md-4 content">
+                               
+                                    <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce6" name="b[]" value='Swisshand'>
+                                    <h5><strong><label class="form-check-label" >Swisshand</label></strong></h5>
+                                </div>
+                          
+                    </div>
+                  </div>
+
+
+                  <div class="thril">
+                      <h2 class="head ">Thriller Events</h2>
+                    <div class="row">
+                       
+                        <div class="col-sm-12 col-md-6 content">
+                            <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="the1" name="b[]" value='X-Factor'>
+                          <h5><strong><label class="form-check-label" >X-Factor</label></strong></h5>
+                        </div>
+                        <div class="col-sm-12 col-md-6 content">
+                            <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="the2" name="b[]" value='Treasure Hunt'>
+                          <h5> <strong>  <label class="form-check-label" >Treasure Hunt</label></strong></h5>
+                          
+                        </div>
+                       </div>
+                      </div>
+      </div>  
+      <div class="row">
+        <div class="col-sm-12 col-md-4 offset-5">
+            <button class="btn btn-warning btn-lg" type="submit" onclick="submit1(this.id)" id="submitbtn" name="b2">Register</button>
+
+        </div>
+
+      </div>
+    </form>
+  </div>
+   
+  
+
+
+</div>	
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
