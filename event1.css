@@ -2,11 +2,7 @@ body{
     background-image: linear-gradient( to right,#72170b,#060766);
     z-index: -1;
 }
-.b1{
-  /********* for the button *********************/
 
-  z-index: 23 ;
-}
 .eventstyle{
    font-size: 100px;
    color: white;
@@ -18,7 +14,7 @@ body{
 }
 
 .carousel-inner{
-    height: 550px;
+    height: fit-content;
 }
 .carousel-indicators li {
     width: 30px;
