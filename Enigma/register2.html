@@ -1,164 +1,241 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="">
+
 <head>
+<title>Events</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" type="text/css" href="register3.css">-->
-<link rel="stylesheet" type="text/css" href="register2.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="register2.js"></script>
-<link rel="stylesheet" type="text/css" href="css/component.css" />
-<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+<script src="register3.js"></script>
 
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
-<body>
+<body id="top">
 
+<div class="bgded overlay" style="background-image:url('bc1.jpg');">
+  <div id="pageintro" class="hoc clear"> 
     
-  <div class="animation-area">
-    <ul class="box-area">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        </ul>   
+    <article>
+      <h3 class="heading">Enigma Event Selection</h3>
+      <p>Select the events that suit on you. Donot think much about it. Just do it and Enjoy the rest.</p>
+      <footer><a class="btn" href="home.html">Home</a></footer>
+    </article>
+    
+  </div>
+</div>
 
-        <div class="header">
-                <strong><h1>Event Selection</h1></strong>
-        </div>
-<div class="container">
-    <form method="POST"  id="form1">
-       <div class="events">
-         <div class="tech">
-        <h2 class="head ">Technical events</h2>
-      <div class="row">
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    
+    <section class="group shout">
+      <figure class="one_half first"><img src="bc1.jpg" alt="">
+        <figcaption class="heading"><a>Celebrity</a></figcaption>
+      </figure>
+      <figure class="one_half"><img src="bc1.jpg" alt="">
+        <figcaption class="heading"><a>The Dance</a></figcaption>
+      </figure>
+    </section>
+   
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+<div class="bgded overlay light" style="background-image:url('cimg.jpg');">
+  <section id="services" class="hoc container clear"> 
+    
+    <div class="sectiontitle">
+      <p class="nospace font-xs">  </p>
+      <h6 class="heading font-x2">Events to be organise</h6>
+    </div>
+    <ul class="nospace group elements elements-three">
+      <li class="one_third">
+        <article><a><i class="fas fa-hourglass-half"></i></a>
+          
+          <h5 class="heading"><strong> Technical Events</strong></h5>
+          <div class="row">
          
-          <div class="col-sm-12 col-md-3 content ">
-              <input class="form-check-input" type="checkbox" onclick="clicked(this.id)" id="te1" >
-            <h5><strong><label class="form-check-label" >Bridgewars</label></strong></h5>
-          </div>
-          <div class="col-sm-12 col-md-3 content">
-              <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="te2" >
-            <h5> <strong>  <label class="form-check-label" >Craftmanship</label></strong></h5>
-            
-          </div>
-          <div class="col-sm-12 col-md-3 content">
+            <div class="col-sm-12 col-md-3 content ">
+                <input class="form-check-input" type="checkbox"onclick="clicked(this.id)" id="te1" >
+              <h5><label class="form-check-label" >Bridgewars</label></h5>
+            </div>
+            <div class="col-sm-12 col-md-3 content">
+                <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="te2" >
+              <h5><label class="form-check-label" >Craftmanship</label></h5>
+              
+            </div>
+            <div class="col-sm-12 col-md-3 content">
+                 
+                <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="te3" >
+              <h5><label class="form-check-label" >Trigger The Bridge</label></h5>
+            </div>
+            <div class="col-sm-12 col-md-3 content">
                
-              <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="te3" >
-            <h5><strong><label class="form-check-label" >Trigger The Bridge</label></strong></h5>
-          </div>
-          <div class="col-sm-12 col-md-3 content">
-             
-              <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="te4" >
-              <h5><strong><label class="form-check-label" >Code{} de Byte</label></strong></h5>
-          </div>
+                <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="te4" >
+                <h5><label class="form-check-label" >Code{} de Byte</label></h5>
+            </div>
+          
+              
+            </div>
+          
+        </article>
         
-            
-          </div>
-        </div>
-        <div class="sport">
-          <h2 class="head ">Sporting Event</h2>
+      
+
+      </li>
+      <li class="one_third">
+        <article><a><i class="fas fa-paw"></i></a>
+          <h6 class="heading"><strong>Sporting</strong></h6>
           <div class="row">
              
-              <div class="col-sm-12 col-md-6 content">
-                  <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="se1" >
-                <h5><strong><label class="form-check-label" >Sporotfia</label></strong></h5>
-              </div>
-              <div class="col-sm-12 col-md-6 content">
-                  <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="se2" >
-                <h5> <strong>  <label class="form-check-label" >Enigmna Gaming League(EGL)</label></strong></h5>
-                
-              </div>
-           </div>
-           </div>
-
-           <div class="prof">
-              <h2 class="head ">Professional Events</h2>
-            <div class="row">
-               
-                <div class="col-sm-12 col-md-6 content">
-                    <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="pe1" >
-                  <h5><strong><label class="form-check-label" >Dropout LTD</label></strong></h5>
-                </div>
-                <div class="col-sm-12 col-md-6 content">
-                    <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="pe2" >
-                  <h5> <strong>  <label class="form-check-label" >Mini UN</label></strong></h5>
-                  
-                </div>
-                </div>
-              </div>
-              <div class="cult">
-                  <h2 class="head ">Cultural Events</h2>
-                <div class="row">
+            <div class="col-sm-12 col-md-6 content">
+                <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="se1" >
+              <h5><label class="form-check-label" >Sporotfia</label></h5>
+            </div>
+            <div class="col-sm-12 col-md-6 content">
+                <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="se2" >
+              <h5><label class="form-check-label" >Enigmna Gaming League(EGL)</label></h5>
+              
+            </div>
+         </div>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-sliders-h"></i></a>
+          <h6 class="heading"><strong> Technical events</strong></h6>
+          <div class="row">
+            <div class="col-sm-12 col-md-4 content">
+           
+                <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce4" >
+                <h5><label class="form-check-label" >BackStage Quizzing</label></h5>
+            </div>
+            <div class="col-sm-12 col-md-4 content">
+           
+                <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce5" >
+                <h5><label class="form-check-label" >Open Mic</label></h5>
+            </div>
+            <div class="col-sm-12 col-md-4 content">
+           
+                <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce6" >
+                <h5><label class="form-check-label" >Swisshand</label></h5>
+            </div>
+      
+</div>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-tty"></i></a>
+          <h6 class="heading"><strong>Cultural Events</strong></h6>
+          <div class="row">
                    
-                    <div class="col-sm-12 col-md-4 content">
-                        <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce1" >
-                      <h5><strong><label class="form-check-label" >Rollick</label></strong></h5>
-                    </div>
-                    <div class="col-sm-12 col-md-4 content">
-                        <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce2" >
-                      <h5> <strong>  <label class="form-check-label" >Feet of Fire</label></strong></h5>
-                      
-                    </div>
-                    <div class="col-sm-12 col-md-4 content">
-                         
-                        <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce3" >
-                      <h5><strong><label class="form-check-label" >Ad Manic</label></strong></h5>
-                    </div>
-                  </div>
-                    <div class="row">
-                                <div class="col-sm-12 col-md-4 content">
-                               
-                                    <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce4" >
-                                    <h5><strong><label class="form-check-label" >BackStage Quizzing</label></strong></h5>
-                                </div>
-                                <div class="col-sm-12 col-md-4 content">
-                               
-                                    <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce5" >
-                                    <h5><strong><label class="form-check-label" >Open Mic</label></strong></h5>
-                                </div>
-                                <div class="col-sm-12 col-md-4 content">
-                               
-                                    <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce6" >
-                                    <h5><strong><label class="form-check-label" >Swisshand</label></strong></h5>
-                                </div>
-                          
-                    </div>
-                  </div>
-
-
-                  <div class="thril">
-                      <h2 class="head ">Thriller Events</h2>
-                    <div class="row">
+            <div class="col-sm-12 col-md-4 content">
+                <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce1" >
+              <h5><label class="form-check-label" >Rollick</label></h5>
+            </div>
+            <div class="col-sm-12 col-md-4 content">
+                <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="ce2" >
+              <h5><label class="form-check-label" >Feet of Fire</label></h5>
+              
+            </div>
+            <div class="col-sm-12 col-md-4 content">
+                 
+                <input class="form-check-input" type="checkbox"  onclick="clicked(this.id)" id="ce3" >
+              <h5><label class="form-check-label" >Ad Manic</label></h5>
+            </div>
+          </div>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a href="#"><i class="fas fa-table"></i></a>
+          <h6 class="heading"><strong>Thriller Events</strong></h6>
+          <div class="row">
                        
-                        <div class="col-sm-12 col-md-6 content">
-                            <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="the1" >
-                          <h5><strong><label class="form-check-label" >X-Factor</label></strong></h5>
-                        </div>
-                        <div class="col-sm-12 col-md-6 content">
-                            <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="the2" >
-                          <h5> <strong>  <label class="form-check-label" >Treasure Hunt</label></strong></h5>
-                          
-                        </div>
-                       </div>
-                      </div>
-      </div>  
+            <div class="col-sm-12 col-md-6 content">
+                <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="the1" >
+              <h5><label class="form-check-label" >X-Factor</label></h5>
+            </div>
+            <div class="col-sm-12 col-md-6 content">
+                <input class="form-check-input" type="checkbox" onclick="clicked(this.id)"  id="the2" >
+              <h5><label class="form-check-label" >Treasure Hunt</label></h5>
+              
+            </div>
+           </div>
+        </article>
+      </li>
+    </ul>
+   
+  </section>
+
+
+
+
+            <div class="row">
+              <div class="col-sm-12 col-md-4 offset-5"  style="text-align: center;margin: 20px;">
+                  <strong><button class="btn btn-warning btn-lg"  onclick="submit1(this.id);" id="submitbtn">Register</button></strong>
+      
+              </div>
+      
+            </div>  
+
+
+</div>
+
+
+
+
+
+
+<div class="bgded overlay row4" style="background-image:url('2.jpg');">
+  <footer id="footer" class="hoc clear"> 
+   
+    <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-md-4 offset-5">
-            <button class="btn btn-warning btn-lg"  onclick="submit1(this.id);" id="submitbtn">Register</button>
+            <div class="col-sm-12 col-md-6">
+              <h5>Our Address</h5>
+              <address>
+                      United Tower 53, Leader Road,<br>
+                      Allahabad, U.P. India.<br>
+                      Phone : 0532-2402951-55<br>
+                      Toll Free No : 1800 3131 808<br>
+                      
+                <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                <span class="fa fa-fax fa-lg"></span> +852 8765 4321<br>
+                <span class="fa fa-envelope fa-lg"></span> <a href="mailto:confusion@food.net"></a>
+             </address>
+          </div>
+      
 
-        </div>
 
+      
+        <div class="col-sm-12 col-md-6 align-self-center">
+          <div class="text-center">
+                  <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span class="fa fa-google-plus fa-lg"></span></a>
+                  <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook fa-lg"></span></a>
+                  <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span class="fa fa-linkedin fa-lg"></span></a>
+                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span class="fa fa-twitter fa-lg"></span></a>
+                  <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="fa fa-youtube fa-lg"></span></a>
+                  <a class="btn btn-social-icon" href="mailto:"><span class="fa fa-envelope-o fa-lg"></span></a>
+              </div>
+          </div>
       </div>
-    </form>
+    </div>
+     <div class="row justify-content-center">
+           <div class="col-auto">
+              <p>© 2019 Ashish Kumar Gupta All rights reserved. </p>
+          </div>
+     </div>
   </div>
    
-  
-
-
-</div>	
-  
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </footer>
 </div>
+
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- Homepage specific -->
+<script src="layout/scripts/jquery.easypiechart.min.js"></script>
+<!-- / Homepage specific -->
 </body>
 </html>
